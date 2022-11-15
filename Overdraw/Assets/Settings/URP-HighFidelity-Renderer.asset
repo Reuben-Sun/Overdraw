@@ -23,6 +23,21 @@ MonoBehaviour:
     DirectLightingStrength: 0.25
     Radius: 0.25
     SampleCount: 12
+--- !u!114 &-1139249776277041282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef933140cd52d34db5540521dd7031a, type: 3}
+  m_Name: OverdrawRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  opaqueShader: {fileID: 4800000, guid: 3785bf40c5852264f85e11fea4f5d2fe, type: 3}
+  transparentShader: {fileID: 4800000, guid: e82ad22c1667db746b2b0673993110bb, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,7 +55,8 @@ MonoBehaviour:
       type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  m_RendererFeatureMap: adc0de57c6d2eee5
+  - {fileID: -1139249776277041282}
+  m_RendererFeatureMap: adc0de57c6d2eee57e4f904e5d9230f0
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
